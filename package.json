@@ -4,11 +4,14 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
+    "postinstall": "npm run install:frontend",
+    "install:frontend": "npm install --prefix frontend",
     "build": "npm run build:server && npm run build:frontend",
     "build:server": "tsc",
     "build:frontend": "npm run build --prefix frontend",
-    "dev": "concurrently \"npm run dev:server\" \"npm start --prefix frontend\"",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:frontend\"",
     "dev:server": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "dev:frontend": "npm start --prefix frontend",
     "start": "NODE_ENV=production node dist/main.js"
   },
   "keywords": [],
