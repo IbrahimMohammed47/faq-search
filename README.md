@@ -21,7 +21,7 @@ This is a simple FAQ search application that allows users to search for frequent
    ```
 3. **Install dependencies and run full project in dev mode:**
    ```bash
-   npm i && npm run dev.
+   npm i && npm run dev
    ```
 
 
