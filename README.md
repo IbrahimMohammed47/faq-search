@@ -23,7 +23,9 @@ This is a simple FAQ search application that allows users to search for frequent
    ```bash
    npm i && npm run dev
    ```
+### Usage
 
+- Visit http://localhost:3000 and try the search
 
 ## API Endpoints
 
