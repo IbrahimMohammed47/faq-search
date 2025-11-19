@@ -30,8 +30,8 @@ This is a simple FAQ search application that allows users to search for frequent
 ### `POST /api/search`
 
 - **Description:** Retrieves a list of all FAQs.
-- **Query Parameters:**
-  - `search` (required): A string to filter FAQs by title and description.
+- **Body:**
+  - `query` (required): A non-empty string to filter FAQs by title and description.
 - **Example Usage:**
   ```
   curl -X POST http://localhost:3001/api/search \
