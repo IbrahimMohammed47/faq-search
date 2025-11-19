@@ -13,11 +13,11 @@ This is a simple FAQ search application that allows users to search for frequent
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:IbrahimMohammed47/faq-search.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd <project-directory>
+   cd faq-search
    ```
 3. **Install dependencies and run full project in dev mode:**
    ```bash
